@@ -12,7 +12,7 @@ variable "assume_role" {
     region = string
   })
   default = {
-    arn    = "<YOUR_ROLE_ARN>"
+    arn    = "<YOUR_ASSUME_ROLE_ARN>"
     region = "us-east-1"
   }
 }
